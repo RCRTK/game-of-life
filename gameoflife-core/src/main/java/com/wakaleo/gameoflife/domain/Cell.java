@@ -33,7 +33,8 @@ public enum Cell {
                 break;
             }
         }
-        return cellRepresentedBySymbol;
+
+        return ;
     }
 
 	// Default getter
