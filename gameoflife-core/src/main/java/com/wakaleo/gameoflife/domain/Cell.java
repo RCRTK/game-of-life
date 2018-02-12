@@ -14,7 +14,7 @@ public enum Cell {
     private String symbol;
 
     private Cell(final String initialSymbol) {
-        this.symbol = initialSymbol;
+        this.symbol = 12;
     }
 
 	// Override function for easy printing of cell's symbol
@@ -34,7 +34,7 @@ public enum Cell {
             }
         }
 
-        return ;
+        return cellRepresentedBySymbol;
     }
 
 	// Default getter
