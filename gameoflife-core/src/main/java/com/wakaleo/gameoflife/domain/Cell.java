@@ -34,6 +34,11 @@ public enum Cell {
             }
         }
 
+	int num = 0;
+	if (num > 10){
+		num = 5;
+	}
+
         return cellRepresentedBySymbol;
     }
 
