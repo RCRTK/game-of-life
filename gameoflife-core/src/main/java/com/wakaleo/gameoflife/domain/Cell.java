@@ -33,7 +33,13 @@ public enum Cell {
                 break;
             }
         }
-        return null;
+
+	int a = 10;
+	if (a < 20){
+		a = 15;
+	}
+
+        return cellRepresentedBySymbol;
     }
 
 	// Default getter
