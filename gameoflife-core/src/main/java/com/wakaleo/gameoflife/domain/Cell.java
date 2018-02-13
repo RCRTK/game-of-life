@@ -18,11 +18,7 @@ public enum Cell {
 
 	String[] pruebaBug = new String[2];
 	String esBug = pruebaBug[3];
-	try{
-	String aString = "bob";
-	aString.replace('b','p');
-	if(aString.equals("pop")){}
-	}catch(Exception e){}
+	
     }
 
 	// Override function for easy printing of cell's symbol
