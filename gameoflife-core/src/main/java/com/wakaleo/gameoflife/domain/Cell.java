@@ -20,8 +20,8 @@ public enum Cell {
 	String esBug = pruebaBug[3];
 	try{
 	String aString = "bob";
-	b.replace('b','p');
-	if(b.equals("pop")){}
+	aString.replace('b','p');
+	if(aString.equals("pop")){}
 	}catch(Exception e){}
     }
 
