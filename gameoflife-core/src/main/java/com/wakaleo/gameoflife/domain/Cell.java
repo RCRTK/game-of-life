@@ -15,10 +15,6 @@ public enum Cell {
 
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
-
-	String[] pruebaBug = new String[2];
-	String esBug = pruebaBug[3];
-	
     }
 
 	// Override function for easy printing of cell's symbol
@@ -44,4 +40,14 @@ public enum Cell {
     public String getSymbol() {
         return symbol;
     }
+
+    public void makingBugs() {
+	String[] pruebaBug = new String[2];
+	String esBug = pruebaBug[3];
+	try{
+	String aString = "bob";
+	aString.replace('b','p');
+	if(aString.equals("pop")){}
+	}catch(Exception e){}
+     }
 }
