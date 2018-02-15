@@ -42,12 +42,13 @@ public enum Cell {
     }
 
     public void makingBugs() {
-	String[] pruebaBug = new String[2];
+     try{
+	String[] pruebaBug = new String[2];	
 	String esBug = pruebaBug[3];
-	try{
+	
 	String aString = "bob";
-	aString.replace('b','p');
-	if(aString.equals("pop")){}
+	b.replace('b','p');
+	if(b.equals("pop")){}
 	}catch(Exception e){}
      }
 }
