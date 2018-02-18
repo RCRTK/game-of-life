@@ -41,15 +41,6 @@ public enum Cell {
         return symbol;
     }
 
-    public void makingBugs() {
-     	try{
-		String[] pruebaBug = new String[2];	
-		String esBug = pruebaBug[3];
-	
-		String aString = "bob";
-		b.replace('b','p');
-		if(b.equals("pop")){}
-	}catch(Exception e){}
-    }
+
 
 }
