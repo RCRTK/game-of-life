@@ -463,6 +463,16 @@
                         <artifactId>maven-jxr-plugin</artifactId>
                         <version>2.1</version>
                     </plugin>
+		    <plugin>
+           		<groupId>org.codehaus.mojo</groupId>
+           		<artifactId>findbugs-maven-plugin</artifactId>
+           		<version>4.7.2</version>
+           		<configuration>
+              		  <findbugsXmlOutput>true</findbugsXmlOutput>
+              		  <findbugsXmlWithMessages>true</findbugsXmlWithMessages>
+              		  <xmlOutput>true</xmlOutput>
+           		</configuration>
+        	     </plugin>
                 </plugins>
             </reporting>
         </profile>
