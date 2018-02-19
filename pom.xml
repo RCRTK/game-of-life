@@ -473,6 +473,18 @@
               		  <xmlOutput>true</xmlOutput>
            		</configuration>
         	     </plugin>
+		     <plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-pmd-plugin</artifactId>
+			<version>3.5</version>
+			<configuration>
+				<linkXRef>false</linkXRef>
+				<targetJdk>1.8.0_151</targetJdk>
+				<rulesets>
+					<ruleset>/rulesets/basic.xml</ruleset>
+				</rulesets>
+			</configuration>
+		      </plugin>
                 </plugins>
             </reporting>
         </profile>
