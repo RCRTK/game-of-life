@@ -496,5 +496,29 @@
                 </plugins>
             </reporting>
         </profile>
+	<profile>
+	      <id>running-clover</id>
+	      <build>
+		<pluginManagement>
+		  <plugins>
+		    <plugin>
+		      <groupId>org.openclover</groupId>
+		      <artifactId>clover-maven-plugin</artifactId>
+		      <configuration>
+		        <generateHtml>true</generateHtml>
+		        <generateXml>true</generateXml>
+		      </configuration>
+		    </plugin>
+		  </plugins>
+		</pluginManagement>
+	      </build>
+	</profile>
+	<profile>
+	      <id>not-running-clover</id>
+	      <modules>
+		<module>my-ear-artifact</module>
+		<!-- list any other ear child modules here -->
+	      </modules>
+	</profile>
     </profiles>
 </project>
